@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 22px 158px;
+    font-size: 20px;
+
+
+}
+
+.iconDsi {
+    display: flex;
+    align-items: center;
+    font-size: 7.6px;
+    font-family: 'Roboto';
+    font-style: normal;
+
+}
+
+
+.container:hover {
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.logo {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin: 21px 60px;
+    float: right;
+    height: 25px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+
+    font-size: 18px;
+    color: rgba(31, 46, 53, 0.8);
+}
+
+.icons {
+    display: flex;
+    list-style: none;
+    margin: 11px 70px;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.icons img {
+    width: 16px;
+}
+
+header {
+    width: 63%;
+    margin: 125px auto;
+    display: flex;
+    gap: 20px;
+}
+.hearder-text{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hearder-text span {
+    color: #EE4248;
+}
+
+.hearder-text h1 {
+
+    font-size: 48px;
+}
+
+.hearder-text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #30444E;
+}
+
+.button {
+    background-color: #EE4248;
+    border: none;
+    color: aliceblue;
+    cursor: pointer;
+   
+    height: 55px;
+    width: 161px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.button:hover {
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    transition: 0.5s;
+}
+
+/*header*/
+main {
+
+    width: 74%;
+    height: 500px;
+    
+    display: flex;
+    gap: 24px;
+    justify-content: space-around;
+    background-color: #F7F7F7;;
+    margin: 50px 192px;
+}
+.main-text{
+    width: 520px;
+    gap: 24px;
+   
+}
+.main-text h1{
+    color: #1F2E35;
+    font-size: 38px;
+   
+font-style: normal;
+margin-top: 57px;
+margin-bottom: 24px;
+}
+.main-text h1 span{
+   color: #EE4248;
+
+}
+.main-text p {
+    font-family: 'Roboto';
+font-style: normal;
+
+font-size: 18px;
+color: #30444E;
+
+}
+.cards{
+    display: flex;
+    margin: 220px 263px;
+    gap: 74px;
+    justify-content: space-around;
+}
+.card{
+    
+}
